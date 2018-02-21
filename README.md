@@ -9,8 +9,7 @@ the actual scraping of the data. I went with this approach because using AWS lam
 without having to manage IP's.
 
 For personal reasons I decided to migrate to a Java Spring code base, so I figured I would share this for anyone interested in
-a lightweight node server that manages AWS lambdas. Be on the look out for the python scraping code and the analytic server 
-used to process the data the scraper collects.
+a lightweight node server that manages AWS lambdas.
 
 
 ### How to install ###
