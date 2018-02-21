@@ -2,7 +2,7 @@
 
 This is a lightweight node server that I developed a few months ago for tracking website data on popular airline websites.
 This is just the management part of the scraper and you will notice there is no scraping code within this repo.
-If you are interested, that code can be found in the python repo (I hope its up by the time your reading this)
+If you are interested, that code can be found in the python repo.
 
 This premise of this app is simple, it utilizes the node-schedule package to trigger AWS lambda functions that then handle
 the actual scraping of the data. I went with this approach because using AWS lambdas allows me to send high amounts of URL requests
